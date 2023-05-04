@@ -64,4 +64,9 @@ class Dashboard extends CI_Controller {
 		$result = $this->Login->checkLoginDb($data);
 		echo json_encode($result);
 	}
+    public function index()
+	{
+		echo "000000000";
+	}
+
 }
