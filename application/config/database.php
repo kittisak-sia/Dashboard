@@ -75,9 +75,11 @@ $query_builder = TRUE;
 
 $db['default'] = array(
 	'dsn'	=> '',
+	'port'     => 1433,
 	'hostname' => 'Driver={SQL SERVER};Server=192.168.161.101;Database=dashboard_progress_db',
 	'username' => 'sa',
 	'password' => 'Te@mlwm',
+	'database' => 'dashboard_progress_db',
 	'dbdriver' => 'odbc',
 	'dbprefix' => '',
 	'pconnect' => FALSE,
